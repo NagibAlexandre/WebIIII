@@ -10,7 +10,6 @@ Caso encontre algum problema ou tenha alguma sugestão, pode me contatar por mei
 <br>E-mail: nagibverly@gmail.com<br>
 <p align="center">
 <br><br><b>🎆AUTORIA🎇</b><br>
-| [<img src="https://avatars.githubusercontent.com/u/NagibAlexandre?v=4" width=115><br><sub>Nagib Alexandre</sub>](https://github.com/NagibAlexandre) | 
-| :---: |
+<img src="https://avatars.githubusercontent.com/u/80482671?v=4" width=115><br>(https://github.com/NagibAlexandre)
 </p>
 
