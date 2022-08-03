@@ -17,7 +17,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def ola():
-    return render_template('lista.html', titulo='Meus Jogos', jogos=lista)
+    return render_template('lista.html', titulo=' -/- Meus Jogos -/-', jogos=lista)
 
 @app.route('/teste')
 def pag1():
@@ -36,7 +36,7 @@ def pag3():
   lista.append(jogo)
   return render_template('lista.html', titulo = 'Jogos', jogos = lista)
 # Esse código é para quando for rodar no Replit
-app.run(host='0.0.0.0', debug=True)
+#app.run(host='0.0.0.0', debug=True)
 
 # Esse código é para quando for rodar em sua máquina
-#app.run(debug=True)
+app.run(debug=True)
