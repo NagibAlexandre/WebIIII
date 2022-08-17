@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <header class="page-header">
+        <div class="cabecalho">
+          <a href="/" class="jogotecaIndex"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnSlZTm_LRyZfr2zCIZl5mIn6fyGt7yM27Pgi3neWV&s"
+              class="rounded">
+          <h1 class="display-2" >Jogoteca</a></h1>
+        </div>
+      </header>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
+    <title class="titulo">Jogoteca</title>
+
+  </head>
+
+  <style>
+    
+    .div-centro{text-align: center;}
+    .div-sobre{color: white; display: inline-block; justify-content: center; text-align: justify; width: 50%; margin-left: auto; margin-right: auto; background-color: #1b042b9a; border: 2px solid white; padding: 8px;}
+    a:hover{color: white;}
+    a{color: inherit; text-decoration: none;}
+    .nav{background-color: #330a4e;}
+    .nav-link{color: white;}
+    label{color: white;text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+    .page-header {background-color: #660a6e;}
+    .cabecalho img {width: 80px;margin: 20px;}
+    .cabecalho {display: flex;align-items: center;}
+    .cabecalho h1 {color: white;}
+    h1{text-align: center;color: white;}
+    .cor{background-color: rgba(243, 243, 243, 0.733)}
+    body {background-image:url("https://wallpaperaccess.com/full/5927911.gif");background-size: cover;min-height: 100vh;display: flex;flex-direction: column;}
+
+  </style>
+
+  <ul class="nav">
+
+      <a href="/" class="nav-link">Início</a>
+      <a href="/novo" class="nav-link">Criar coluna</a>
+      <a href="/sobre" class="nav-link">Sobre & Contato</a>
+      
+  </ul>
+   
+{% block conteudo %}{% endblock %}
+
+<footer class="mt-auto bg-light text-muted">
+
+    </section>
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2022 Copyright:
+    <a class="text-reset fw-bold" href="#">Nagib Alexandre IFMG</a>
+    </div>  
+  </footer>
