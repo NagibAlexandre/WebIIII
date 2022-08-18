@@ -36,6 +36,10 @@ def SiteCriar():
 def SiteSobre():
     return render_template('sobre.html')
 
+@app.route('/extra')
+def SiteExtra():
+  return render_template('extra.html')
+
 # Esse código é para quando for rodar no Replit
 #app.run(host='0.0.0.0', debug=True)
 
